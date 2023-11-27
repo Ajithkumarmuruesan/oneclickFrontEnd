@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "393911186292",
+    "project_id": "smart-buisness-creator",
+    "storage_bucket": "smart-buisness-creator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393911186292:android:61e113e28bf2d7e92bf221",
+        "android_client_info": {
+          "package_name": "com.example.smart_website_creater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393911186292-g8pc81dn04k0vrop6ksr8pleobaob2un.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smart_website_creater",
+            "certificate_hash": "2330156bd8f01730e3454e3fae71c77b4c266b73"
+          }
+        },
+        {
+          "client_id": "393911186292-92834frlkol4qk5qv06tnn8be00su8e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcV71JLdGB9wC6HPY36EKk4Z_IHIjZjqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393911186292-92834frlkol4qk5qv06tnn8be00su8e2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

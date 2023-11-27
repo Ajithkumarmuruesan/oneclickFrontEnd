@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "smart_website_creater (web)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--web-renderer",
+                "html"
+            ],
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "smart_website_creater",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "smart_website_creater (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "smart_website_creater (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "smart_website_creater (web with CORS)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--web-renderer",
+                "html",
+                "--no-sound-null-safety",
+                "--disable-service-auth-codes",
+                "--enable-vm-service=8080",
+                "--web-port=8080",
+                "--web-hostname=0.0.0.0",
+                "--web-cors",
+                "--web-preview"
+            ],
+            "program": "lib/main.dart"
+        }
+    ]
+}
